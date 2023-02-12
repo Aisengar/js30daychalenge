@@ -1,11 +1,12 @@
 :root{
     --color : #444;
     --background: #f3f3f3;
+    --font-family: sans-serif;
 }
 * {
-    background-color: white;
+    background-color: var(--background);
     color: var(--color);
-    font-family: sans-serif;
+    font-family: var(--font-family);
 }
 
 h1{
