@@ -1,0 +1,13 @@
+:root{
+    --color : #444;
+    --background: #f3f3f3;
+}
+* {
+    background-color: white;
+    color: var(--color);
+    font-family: sans-serif;
+}
+
+h1{
+    border-bottom: 3px solid var(--color);
+}
